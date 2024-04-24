@@ -3,6 +3,45 @@
   src: url(.../fonts/Norse-Bold.otf);
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-family: Norse-Bold, sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left {
+
+  background-image: url(./images/halie-west.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 35vw;
+  color: aqua;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  color: aqua;
+}
+
+.first {
+  height: 33vh;
+}
+
+.second {
+  height: 33vh;
+}
+
+.third {
+  height: 33vh;
 }
