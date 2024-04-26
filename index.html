@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=MedievalSharp&display=swap" rel="stylesheet">
   <script src="main.js"></script>
   <title>Document</title>
 </head>
@@ -12,16 +15,74 @@
 <body>
   <div class="main">
     <div class="left">
-      <h1>hi</h1>
+      <div class="forImage">
+        <div class="semi-transparent">
+          <img src="./images/odin-lined.png" alt="Odin Logo" height="100px">
+          <h1>ODIN</h1>
+        </div>
+      </div>
+      <div class="forFooter">
+        <p class="p-footer">Photo by <a class="a-footer"
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halie
+            West</a> on <a <a class="a-footer"
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a>
+        </p>
+      </div>
     </div>
 
     <div class="right">
-      <div class="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt quod cupiditate nemo
-        accusantium aliquam illo quos praesentium itaque. Perferendis hic dignissimos, magnam culpa nobis iste obcaecati
-        beatae distinctio modi vero?</div>
-      <div class="second">Form</div>
-      <div class="third">Submit</div>
+      <div class="first">
+        <h3>This is not a real online service! You know you need something <br>like this is your life to help you
+          realize your deepest dreams.
+          <br>Sign up <em>now</em><br><br>You <em>know</em> you want to.
+        </h3>
+      </div>
+      <form action="" method="get">
+        <div class="second">
+          <h4>Let's do this!</h4>
+          <div class="form-main-div">
+            <div class="form-divs">
+              <div class="form-div">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname">
+              </div>
+              <div class="form-div">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+              </div>
+              <div class="form-div">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <p id="Msg"></p>
+              </div>
+            </div>
+            <div class="form-divs">
+              <div class="form-div">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname">
+              </div>
+              <div class="form-div">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              <div class="form-div">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <p id="Msg"></p>
+              </div>
+            </div>
+          </div>
+          <div class="third">
+            <button type="submit" class="btn-green">Create Account</button>
+          </div>
+        </div>
+      </form>
+      <div class="hyperlink">
+        <p>Already have an account? <a class="login" href="">Log In</a></p>
+      </div>
     </div>
+
+  </div>
   </div>
 </body>
 
